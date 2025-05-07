@@ -12,6 +12,9 @@
         mysqli_close($dbconn);
     } else echo "<p>Unable to connect to the db.</p>";
 
+
+    echo "<table border='1' cellpadding='5'>";
+    echo "<tr><th>ID</th><th>Make</th><th>Model</th><th>Price</th><th>Year</th></tr>";
     while ($row = mysqli_fetch_assoc($result)) {
         echo "<tr>";
         echo "<td>" . $row['car_id'] . "</td>";
