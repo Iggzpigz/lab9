@@ -6,7 +6,7 @@
     <body>
         <?php 
         $host = "localhost";         // because XAMPP runs the server locally
-        $useranme = "root";          // default username for XAMPP's MySQL
+        $username = "root";          // default username for XAMPP's MySQL
         $password = "";              // default password is empty in XAMPP
         $database = "exhibition_db";  // replace with the actual name of your database
 
