@@ -20,7 +20,7 @@
         echo "<td>" . $row['price'] . "</td>";
         echo "<td>" . $row['yom'] . "</td>";
         echo "</tr>";
-    }
+    } else echo "There are no cars to display";
     ?>
     </body>
 </html>
